@@ -1,0 +1,30 @@
+<view>
+  <ad unit-id="adunit-e64af5dc269065ad"></ad>
+</view>
+<view class="content">
+<view class="title">{{id}}</view>
+  <view class="discuss">
+    <view>
+      <view>注意1：创建成功后不会直接显示结果，请在搜索框内输入您所创建的王国即可</view>
+      <view>注意2：创建时一定从右下角的“约架”处进入创建，否则会创建失败</view>
+      <view>注意3：无意义的内容会被清理，请大家知晓</view>
+      <input value="{{find}}" bindinput="findKingdom" type="number" placeholder="请在这里输入王国搜索，比如‘611’" wx:if="{{findDisplay}}"></input>
+    </view>
+    <view class="item" wx:for="{{fight}}" wx:for-index="index" wx:key="index" wx:if="{{item.fight.id==id&&item.fight.kingdom==find}}">
+      <view>王国{{item.fight.kingdom}}：{{item.fight.other}}</view>
+      <view>领主：{{item.fight.player}}</view>
+      <view>联系方式：{{item.fight.phone}}</view>
+      <button type="warn" data-_id="{{item._id}}" bindtap="remove">删除</button>
+    </view>
+    <view class="btn" bindtap="addCreate">添加</view>
+    <view class="add" wx:if="{{add1}}">
+      <view>王国：<input placeholder="填写对应王国" value="{{sub.kingdom}}" bindinput="subKingdom" type="number"></input></view>
+      <view>领主：<input value="{{sub.player}}" bindinput="subPlayer"></input></view>
+      <view>联系：<input value="{{sub.phone}}" bindinput="subPhone"></input></view>
+      <view>备注：<input value="{{sub.other}}" bindinput="subOther" placeholder="显示在第一行，请尽量简洁"></input></view>
+      <view class="submit">
+        <button bindtap="submitDone">完成</button><button bindtap="submitNone">取消</button>
+      </view>
+    </view>
+  </view>
+</view>

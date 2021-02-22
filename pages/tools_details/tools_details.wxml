@@ -1,0 +1,11 @@
+<view>
+<view class="title">{{id}}</view>
+<view class="content2">
+  <view class="item" wx:for="{{value}}" wx:key='index2'>
+    <view>{{index}}:{{item}}</view>
+  </view>
+</view>
+</view>
+  <view>
+    <ad unit-id="adunit-165ed895d00e21f3"></ad> 
+  </view>

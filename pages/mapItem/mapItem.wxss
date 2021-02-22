@@ -1,0 +1,19 @@
+/* pages/mapItem/mapItem.wxss */
+.content2{
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid white;
+  font-size: 15px;
+  line-height: 30rpx;
+  padding:10rpx;
+  margin:0;
+  text-indent: 0;
+  float: left;
+  clear: both;
+}
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

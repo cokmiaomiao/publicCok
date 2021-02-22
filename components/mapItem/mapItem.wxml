@@ -1,0 +1,3 @@
+<view class="tapArea" style="top:{{innerPosition.h-55}}px;left:{{innerPosition.w-50}}px;" bindtap="onTouch">
+  <view class="atitle">{{innerPosition.name}}</view>
+</view>

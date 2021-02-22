@@ -1,0 +1,7 @@
+.content2{
+  margin: 10rpx auto;
+}
+.require{
+  color: white;
+  
+}

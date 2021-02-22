@@ -1,0 +1,9 @@
+<view class='content'>
+  <view class="title">强化</view>
+  <view wx:for="{{qianghua}}" wx:for-index="key" wx:for-item="value" wx:key="key">
+    <view class="btn" bindtap="action" data-key="{{key}}" wx:if="{{key!='_id'}}">{{key}}</view>
+  </view>
+</view>
+<view>
+  <ad unit-id="adunit-43a4e2d32e476972" ad-intervals="30"></ad>
+</view>

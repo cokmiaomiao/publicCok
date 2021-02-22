@@ -1,0 +1,76 @@
+<!--pages/equipment/equipment.wxml-->
+<view class='content'>
+  <view class='title'>装备需求</view>
+    <view class='content2'>
+    <view class='title_2'>前方高能</view>
+      <view wx:for='{{needed}}' wx:key="index">{{item}}</view>
+    </view>
+    <view class='content2'>
+      <view>这游戏对新手玩家十分不友好</view>
+      <view>现在可以用一键换装，一键换装的前提是所有英雄都在城里</view>
+      <view>图纸来源：svip商店每日可换取随机10张图纸，黄金宝箱活动白银档奖励，英雄招募普通招募获取图纸碎片，高级招募获取图纸，每天打怪获取碎片，最强王国阶段奖励，边境矿脉积分奖励和排名奖励，英雄试炼获取图纸碎片，或者赌30精良装备然后分解（不推荐）。。。</view>
+      <view>材料：矿脉活动和最强王国奖励的都是蓝色材料箱子，推荐大家刷军衔换橙色材料，黄金宝箱青铜档也有橙色材料箱子，缺少某材料时，可用多余材料做普通装备，然后分解（缺点：不确定性，耗费加速）</view>
+    </view>
+    <view class='content2 down'>
+      <view class='title_2'>打架装备</view>
+      <view>刺葵大天使套，女王女王套纯骑也很不错，领主大天使，其余大英雄估计也搞不全就不谈了，对于新手来说足够用了，北极我觉得没必要，当然性价比还是挺好的，但是注定淘汰的装备，如果是啥装备都没有的小萌新，没必要做大天使，建议做普通装备就可以（做，不是赌），40封顶，不需要43，到了后面出了大天使以后可以转型合成其他发展装备，装备材料可以每周刷荣誉在战争大厅换橙色材料，荣誉每周有获取上限</view>
+  </view>
+  <view class='content2 down'>
+      <view class='title_2'>建筑加速</view>
+      <view>头盔：荣耀套装的头盔，大天使也附加属性也有建筑加速属性</view>
+      <view>武器：盛世，怜悯武器，推荐做40级普通装备 狼牙长锤</view>
+      <view>衣服：43级荣耀之凯，没有可以用皇家套凑合</view>
+      <view>裤子：43级荣耀之护腿/20级的重腿甲，低成本可以选择织网护腿</view>
+      <view>鞋子：43荣耀之重靴/35骑士重靴（不要35幸运护胫）</view>
+      <view>戒指：普通装备30级精铁之戒</view>
+  </view>
+  <view class='content2 down'>
+      <view class='title_2'>科技加速</view>
+      <view>头盔：盛世/怜悯头盔</view>
+      <view>武器：普通装备40级狼牙长锤</view>
+      <view>衣服：荣耀套装衣服，没有可以用皇家套凑合</view>
+      <view>裤子：43级荣耀之护腿/40级飞扬之腿</view>
+      <view>鞋子：普通装备40级灵巧轻靴</view>
+      <view>戒指：普通装备40级生命之戒</view>
+  </view>
+  <view class='content2 down'>
+      <view class='title_2'>科研石产量：</view>
+      <view>皇家套+学士套</view>
+  </view>
+  <view class='content2 down'>
+      <view class='title_2'>拆田的皇家套：</view>
+      <view>王国建筑升级活动前拆掉一部分田，活动的时候英雄和领主穿上皇家套，建筑英雄挂墙，3级奇迹，田可以免徽记升级到荣耀5</view>
+  </view>
+  <view class='content2 down'>
+      <view class='title_2'>体力/重生套装</view>
+      <view>都可以加快恢复体力速度，重生套装可以减少治疗13级兵精铁消耗</view>
+  </view>
+  <view class='content2 down'>
+      <view class='title_2'>医疗帐篷(2套足够)</view>
+      <view>头盔：体力/重生套装的头盔</view>
+      <view>武器：征服套装武器</view>
+      <view>衣服：25英勇套装衣服</view>
+      <view>裤子：征服套装裤子</view>
+      <view>鞋子：征服套装鞋子</view>
+      <view>戒指：普通装备30级信仰之戒</view>
+      <view>当重生赌完一套就直接上重生好了，另外招募官的官职也是可以增加固定医院上限的，也就是你可能会用到4套重生。。</view>
+      <view>重生套推荐做法：倍享豪礼活动，每天花6块钱不要领取奖励，最后一天花30块钱会获得64件蓝色生命套装，合成4件橙色套装，然后100%做成4件金色！</view>
+  </view>
+  <view class='content2 down'>
+      <view class='title_2'>伤兵速度</view>
+      <view>头盔：无畏套装头盔（也可以穿生命/重生套试着和其余部件组合套装属性）</view>
+      <view>武器：30庇护之弓</view>
+      <view>衣服：43末世之铠/40爵士长衫</view>
+      <view>裤子：43级荣耀之护腿/40亚马逊护腿</view>
+      <view>鞋子：普通装备40级灵巧轻靴</view>
+      <view>戒指：40级巨人之戒/征服套装戒指/英勇套装戒指</view>
+  </view>
+  <view class='content2 down'>
+      <view class='title_2'>黑骑装备</view>  
+      <view>同打架装备，赌输的装备不要急着分解或者合成，可以给其他大英雄穿上撑属性</view>
+  </view>
+  <view>
+    <ad unit-id="adunit-43a4e2d32e476972"></ad>
+  </view>
+</view>
+ 

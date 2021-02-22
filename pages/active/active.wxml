@@ -1,0 +1,9 @@
+<view class='content'>
+  <view class="title">活动</view>
+  <view wx:for="{{active}}" wx:for-index="value" wx:for-item="value" wx:key="key">
+    <view class="active" bindtap="action" data-key="{{value}}" wx:if="{{value!='_id'}}">{{value}}</view>
+  </view>
+</view>
+<view>
+  <ad unit-id="adunit-43a4e2d32e476972" ad-intervals="30"></ad>
+</view>

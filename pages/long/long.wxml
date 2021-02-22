@@ -1,0 +1,55 @@
+<view class='content'>
+  <view class='title'>龙</view>
+  <view class='content2'>
+    <view class='title_2'>龙选择</view>
+    <view class='title_3'>红龙</view>
+    <view>守城龙，等级越高越好，天赋等级越高越好，出征带杀敌较多</view>
+    <view>守城时需要驻防</view>
+    <view class='title_3'>蓝龙</view>
+    <view>骑兵龙，技能类似救援，开单人攻城等特殊属性也生效，前提是出征的时候带，伤害不如红龙</view>
+    <view>如果有加全兵种血量的技能，换给蓝龙，骑兵流会非常强势</view>
+    <view class='title_3'>黑龙</view>
+    <view>车兵龙，平民可以治疗用，有个技能减少治疗伤兵资源消耗，升到10级可以开启强化，可以使用治疗龙技能强化5级，搭配10级金色龙晶，练兵的领主/英雄天赋可以轻松减免100%的伤兵治疗资源消耗，但是不可以减免精铁</view>
+    <view>带黑龙采集可以获得巨龙宝藏奖励</view>
+    <view class='title_3'>冰龙</view>
+    <view>平民打架驻防龙，因为加血量，更换掉一个不需要的技能即可</view>
+    <view class='title_3'>白龙</view>
+    <view>总感觉没啥用的龙，可以加出征用？聊胜于无吧</view>
+    <view class='title_3'>海龙</view>
+    <view>加攻击属性的龙，不如冰龙好用</view>
+    <view class='title_3'>麒麟</view>
+    <view>35技能可以加集结上限92000，40技能也可以增加集结上限</view>
+    <view class='title_3'>哥斯拉</view>
+    <view>白板龙，终极技能攻城，可塑造性好，天赋和红龙相似，但是穷人没碎片升级</view>
+    <view class='title_3'>火鹰</view>
+    <view>守城龙，但是只是单人守城比较好，自己接集结比红龙好，支援别人单人守城伤害是不生效的，别人支援自己是没有影响的</view>
+  </view>
+<view class='content'>
+<view class='content2'>
+  <view class='title_2'>天赋和技能的区别</view>
+  <view>天赋：在龙出征的时候生效</view>
+  <view>技能：在龙驻扎的时候生效</view>
+  <view>目前出征龙的技能和驻防龙的技能可以同时生效，但是守城的时候只有驻防龙技能生效，这点很不公平，看列王怎么优化了，这里需要注意龙的技能不能同属性叠加，比如红龙自带守城和新出来的守城技能冲突，不能同时装备</view>
+  <view>新的技能最高升5级，加不了多少属性，后续属性需要同名同品质技能强化，平民建议慎重考虑，推荐技能：主战兵种的伤害，血量。</view>
+</view>
+<view class='content2'>
+  <view>龙的天赋升级消耗材料碎片可在龙塔获得</view>
+  <view>龙的好感度越高杀敌越猛</view>
+  <view>龙的天赋尽量升高，龙的科技（学院）尽量点满</view>
+  <view>龙塔尽量打难度等级高的，保证每天必扫荡</view>
+  <view>龙塔每周可以刷新一次首杀奖励，一定不要错过</view>
+  <view>首杀并不一定要第一天打，只要是手动推就好，就算周一到周六都扫荡，周日再手动推也一样会有首杀奖励</view>
+  <view>龙魂秘宝有加主兵种血量或者攻守城伤害，减伤之类的金色技能一定要搞出来，就算不强化加的属性都很高</view>
+</view>
+<view class='content2'>
+  <view>
+    <image src='https://636f-co-872-1259111184.tcb.qcloud.la/cok/index_img/long36-40.jpg?sign=fe7777802086547434b7ee7d88fe9c85&t=1560097118' mode='aspectFill'></image>
+  </view>
+  <view>35升40级需要海量魔法石，建议在龙升级幸运日升级，可减少海量魔法石消耗</view>
+  <view>图片来源：技术流</view>
+</view>
+</view>
+
+
+
+</view>

@@ -1,0 +1,20 @@
+<!--pages/map/map.wxml-->
+<view>
+  <movable-area class="mapContent">
+    <movable-view direction='all' friction='6' inertia class="moveView">
+      <image class="bgImg" mode="heightFix" bindload="imgLoad" src="https://636f-co-872-1259111184.tcb.qcloud.la/cokBG.png?sign=d34be9c807f8969f95b38bb05d9d9fbd&t=1606227930"></image>
+      <mapItem wx:for="{{arr}}" wx:for-item="item" wx:for-index="index" wx:key="idnex" position="{{item}}" bind:isMask="isMask"></mapItem>
+    </movable-view>
+  </movable-area>
+  <!-- 点击建筑后弹出的蒙版 -->
+  <view wx:if="{{mask}}" class="mask" bindtap="cancelMask">
+    <view class="mapItems">
+      <view class="btn mapitem" wx:for="{{mapItem}}" wx:for-item="item" wx:for-index="index" wx:key="idnex">
+        <view data-key="{{index}}" bindtap="turnItem">{{index}}</view>
+      </view>
+    </view>
+  </view>
+  <!-- <scroll-view scroll-y enhanced show-scrollbar='{{scrollbar}}' class="display">
+    <view wx:for='{{list}}' wx:for-item='item' wx:for-index='index' wx:key='index' class="displayItem">{{item.type}} : {{item.action}}</view>
+  </scroll-view> -->
+</view>

@@ -1,0 +1,12 @@
+<view class='content'>
+  <view class='title'>道具来源</view>
+  <view class='content2'>
+    <view>备注：持续更新中，有什么建议请在留言区留言，谢谢</view>
+    <view wx:for="{{tools}}" wx:for-index="key" wx:for-item="value" wx:key="key">
+      <view class="btn" bindtap="action" data-key="{{key}}" wx:if="{{key!='_id'}}">{{key}}</view>
+    </view>
+  </view>
+</view>
+<view>
+  <ad unit-id="adunit-86f94fac5dddbba4" ad-type="grid" grid-opacity="0.8" grid-count="5" ad-theme="white"></ad>
+</view>

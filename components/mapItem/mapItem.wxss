@@ -1,0 +1,14 @@
+/* pages/mapItem/mapItem.wxss */
+.tapArea{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border:1px solid #ccc;
+  position: absolute;
+}
+.atitle{
+  color: beige;
+  line-height: 100px;
+  text-align: center;
+  font-size: 14px;
+}

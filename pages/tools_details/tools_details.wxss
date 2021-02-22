@@ -1,0 +1,14 @@
+.item{
+  height: 80rpx;
+  color: white;
+  line-height: 80rpx;
+  overflow: hidden;
+  border-bottom:1px solid #ccc;
+  text-indent: 100rpx;
+}
+.item:hover{
+  overflow: visible;
+  height: 100%;
+  background-color: white;
+  color:black;
+}

@@ -1,0 +1,19 @@
+view,text{
+  text-indent: 0;
+}
+.btn{
+  text-align: center;
+}
+.user{
+  display: flex;
+  justify-content: space-around;
+  margin: 30rpx;
+  align-items: center;
+  font-size: 16px;
+}
+.user image{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  border:1rpx solid white;
+}

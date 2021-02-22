@@ -1,0 +1,30 @@
+    <!-- 轮播 -->
+    <view>
+      <ad unit-id="adunit-43a4e2d32e476972" ad-intervals="30"></ad>
+    </view>
+<view class='content container' bindtouchstart="containerTap">
+      <view class='beizhu'>{{remark}}</view>
+    <!-- 菜单栏 -->
+    <button open-type="share" class="share">分享</button>
+      <view class='flex'>
+        <view wx:for="{{menu_s}}" wx:for-index="key" wx:for-item="value" wx:key="key" class="btn-animate">
+          <navigator url='{{value}}'>{{key}}</navigator>
+        </view>
+      </view>
+    <!-- 间隔条 -->
+    <view class='jiange'></view>
+    <view>
+      <view class="ripple" style="{{rippleStyle}}"></view>
+      <!-- <view class="container" bindtouchstart="containerTap"></view> -->
+    </view>
+    <!-- 九宫格 -->
+    <view class='jiu'>
+      <view class='jiu_item' wx:for='{{menu_c}}' wx:key='index'>
+        <navigator url='{{item.data_target}}'><image src='{{item.img_url}}' lazy-load='true'></image></navigator>
+        <view>{{index}}</view>
+      </view>
+    </view>
+   
+    <!-- 版权声明 -->
+    <view class='shengming content2'>{{statement}}</view>
+</view>

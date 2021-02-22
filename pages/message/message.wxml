@@ -1,0 +1,22 @@
+<view>
+  <ad unit-id="adunit-e64af5dc269065ad"></ad>
+</view>
+<view class="content">
+  <view class="discuss">
+    <view class="item" wx:for="{{fight}}">
+      <view>{{item.fight.other}}</view>
+      <view>王国：{{item.fight.kingdom}}</view>
+      <view>领主：{{item.fight.player}}</view>
+      <button type="warn" data-_id="{{item._id}}" bindtap="remove">删除</button>
+    </view>
+    <view class="btn" bindtap="addCreate">添加</view>
+    <view class="add" wx:if="{{add1}}">
+      <view class="flex_x"><view>王国：</view><input placeholder="必填" value="{{sub.kingdom}}" bindinput="subKingdom" type="number"></input></view>
+      <view class="flex_x"><view>领主：</view><input value="{{sub.player}}" bindinput="subPlayer"></input></view>
+      <view>留言：<textarea value="{{sub.other}}" bindinput="subOther"></textarea></view>
+      <view class="submit">
+        <button bindtap="submitDone">完成</button><button bindtap="submitNone">取消</button>
+      </view>
+    </view>
+  </view>
+</view>

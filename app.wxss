@@ -1,0 +1,99 @@
+.jiange{
+  height: 20rpx;
+}
+page{
+  height: 100%;
+  background-image: url(https://636f-co-872-1259111184.tcb.qcloud.la/p7.jpg?sign=e47e568be5c883a10f8842ea6850595c&t=1584246719);
+  background-attachment:fixed;
+  background-size: cover;
+}
+.content{
+  width: 100%;
+  text-indent: 30px;
+  color: white;
+}
+.content2{
+  border-bottom: 1px solid white;
+  margin: 20rpx 20rpx 0 20rpx;
+  padding: 20rpx;
+}
+.title{
+  font-size: 30px;
+  color: white;
+  margin: 30rpx auto;
+  text-align: center;
+  box-shadow: 0 0 30rpx 0;
+  width: 500rpx;
+  height: 150rpx;
+  line-height: 150rpx;
+  text-indent: 0;
+  border-radius: 50rpx;
+  border:3rpx solid white;
+}
+.title_2{
+  font-size: 20px;
+  text-indent: 0;
+  padding: 10rpx 0;
+  color: bisque;
+  border: 2rpx solid #ddd;
+  border-radius: 20rpx;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 450rpx;
+  text-align: center;
+  margin: 0 auto 20rpx;
+}
+.title_3{
+  font-size: 16px;
+  width: 30%;
+  height: 50rpx;
+  line-height: 50rpx;
+  margin: 30rpx 0;
+  color: white;
+  border-left: 1px solid yellow;
+  border-right: 1px solid yellow;
+  border-radius: 10%;
+  text-indent: 0;
+  text-align: center;
+}
+.down{
+  height: 38px;
+  overflow: hidden;
+}
+.down:hover{
+  height: 100%;
+  overflow: visible;
+}
+.content2 view image{
+  display: block;
+  margin: auto;
+}
+.btn{
+  color: white;
+  margin:20rpx auto ;
+  /* height: 80rpx; */
+  font-size: normal;
+  line-height: 80rpx;
+  /* border-radius: 20rpx; */
+  border-bottom:1px solid white;
+}
+.btn:hover{
+  background-color: white;
+  color: black;
+}
+.ripple {
+  background: radial-gradient(red, orange, yellow, green, blue, indigo, violet); 
+  border-radius: 100%;
+  opacity: 0.3;
+  height:10px;
+  width:10px;
+  margin-top: -90px;
+  position: absolute;
+  transform: scale(0);
+}
+@keyframes ripple {
+  100% {
+  transform: scale(12);
+  transform: scale(12);
+  background-color: transparent;
+  }
+}

@@ -1,0 +1,12 @@
+<view class='content'>
+  <view class='title'>一些属性</view>
+  <view class='content2'>
+    <view>备注：目前未计入领主满级，学院科技和装备专精小药丸的加成</view>
+    <view wx:for="{{fight}}" wx:for-index="index" wx:key="index" wx:for-item="value">
+      <view class="btn" bindtap="action" data-key="{{index}}">{{index}}</view>
+    </view>
+  </view>
+</view>
+ <view>
+  <ad unit-id="adunit-86f94fac5dddbba4" ad-type="grid" grid-opacity="0.8" grid-count="5" ad-theme="white"></ad>
+</view>

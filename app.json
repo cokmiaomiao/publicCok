@@ -1,0 +1,60 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/map/map",
+    "pages/logs/logs",
+    "pages/active/active",
+    "pages/discuss/discuss",
+    "pages/resource/resource",
+    "pages/military/military",
+    "pages/equipment/equipment",
+    "pages/other/other",
+    "pages/longjing/longjing",
+    "pages/longyu/longyu",
+    "pages/hero/hero",
+    "pages/long/long",
+    "pages/me/me",
+    "pages/attr/attr",
+    "pages/disscuss_details/disscuss_details",
+    "pages/tools/tools",
+    "pages/tools_details/tools_details",
+    "pages/active_details/active_details",
+    "pages/other_details/other_details",
+    "pages/message/message",
+    "pages/mofa/mofa",
+    "pages/build/build",
+    "pages/build_details/build_details",
+    "pages/qianghua/qianghua",
+    "pages/qianghua_details/qianghua_details",
+    "pages/mapItem/mapItem"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFF",
+    "navigationBarTitleText": "列王攻略",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "/pages/img/home.png",
+        "selectedIconPath": "/pages/img/home-active.png"
+      },
+      {
+        "pagePath": "pages/active/active",
+        "text": "活动",
+        "iconPath": "/pages/img/profile.png",
+        "selectedIconPath": "/pages/img/profile-active.png"
+      },
+      {
+        "pagePath": "pages/map/map",
+        "text": "地图",
+        "iconPath": "/pages/img/message.png",
+        "selectedIconPath": "/pages/img/message-active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

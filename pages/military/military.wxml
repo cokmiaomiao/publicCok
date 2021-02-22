@@ -1,0 +1,42 @@
+<view>
+  <!-- 画布 -->
+  <view>
+    <canvas canvas-id="myCanvas" style="width:464rpx;height:678rpx;border:solid white 1rpx;"/>
+  </view>
+  <!-- 需求定制 -->
+  <view class="require">
+  <!-- 具体以数据库为准 -->
+    <view>
+      背景图：<input type="text"/>
+    </view>
+    <view>
+      名称：<input type="text"/>
+    </view>
+    <view>
+      技能描述：<input type="text"/>
+    </view>
+    <view>
+      属性：<input type="text"/>
+    </view>
+    <view>
+      种族：<input type="text"/>
+    </view>
+    <view>
+      类型：<input type="text"/>
+    </view>
+    <view>
+      等级：<input type="text"/>
+    </view>
+    <view>
+      攻击：<input type="text"/>
+    </view>
+    <view>
+      防御：<input type="text"/>
+    </view>
+  </view>
+  <!-- 按钮组 -->
+  <view>
+    <button bindtap="commit">生成</button>
+    <button bindtap="savePic">保存</button>
+  </view>
+</view>
